@@ -20,6 +20,5 @@ public class App {
        double Mortgage = principal * (monthlyInterest * Math.pow(1 + monthlyInterest, NumsOfPayments) )
        /( Math.pow(1 +monthlyInterest , NumsOfPayments)- 1);
        System.out.println("Mortgage : " + Mortgage);
-
     }
 }
