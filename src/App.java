@@ -50,7 +50,7 @@ public class App {
        /( Math.pow(1 +monthlyInterest , NumsOfPayments)- 1);
        String MortgageFormatted = NumberFormat.getCurrencyInstance().format(Mortgage);
        System.out.println("Mortgage : " + MortgageFormatted);
-
+       
        System.out.print("Enter number : ");
        int day = scan.nextInt();
        switch(day){
